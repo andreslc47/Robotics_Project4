@@ -23,15 +23,18 @@ To execute the Project:
   		cd ~/Robotics_Project4/
 	      	source devel/setup.bash
 	       	roslaunch my_robot world.launch
-	or
-		./robot
 	
+or
+		./robot
+
 	4.2. Second Terminal:
 
 	       	cd ~/Robotics_Project3/
 	      	source devel/setup.bash
 	      	roslaunch my_robot mapping.launch
-		or
+
+or
+
 		./mapping
   
 	4.3. Third Terminal:
@@ -39,9 +42,13 @@ To execute the Project:
         	cd ~/Robotics_Project4/	
 		source devel/setup.bash
       		roslaunch teleop_twist_keyboard teleop.launch
+
 		or
+
 		./teleop
+
 		or
+
 		rosrun teleop_twist_keyboard teleop_twist_keyboard.py
  
 	
@@ -51,12 +58,14 @@ To execute the Project:
 6. When finish, open the downloaded database file and copy it to ~/.ros directory, then
 	
 	rtabmap-databaseViewer ../.ros/rtabmap.db
+
 	or
+
 	./open_database	
 
 	
 7. To close everything:
 	
-	cd ~/Robotics_Project4/
-	./pkill_all
+        cd ~/Robotics_Project4/
+        ./pkill_all
 
