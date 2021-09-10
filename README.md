@@ -24,7 +24,7 @@ To execute the Project:
         source devel/setup.bash
         roslaunch my_robot world.launch
 
-        or
+    or
 
         ./robot
 
@@ -34,7 +34,7 @@ To execute the Project:
         source devel/setup.bash
         roslaunch my_robot mapping.launch
 
-        or
+    or
 
         ./mapping
 
@@ -44,11 +44,11 @@ To execute the Project:
         source devel/setup.bash
         roslaunch teleop_twist_keyboard teleop.launch
 
-        or
+    or
 
 	./teleop
 
-	or
+    or
 
         rosrun teleop_twist_keyboard teleop_twist_keyboard.py
  
