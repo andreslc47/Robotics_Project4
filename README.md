@@ -74,7 +74,7 @@ To execute the Project:
 	
         cd ~/Robotics_Project4/
         source devel/setup.bash
-        rtabmap-databaseViewer ../.ros/rtabmap.db
+        rtabmap-databaseViewer rtabmap.db
 
     or
 	
