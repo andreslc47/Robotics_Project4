@@ -38,7 +38,7 @@ To execute the Project:
 
     4.2. Second Terminal:
 
-        cd ~/Robotics_Project3/
+        cd ~/Robotics_Project4/
         source devel/setup.bash
         roslaunch my_robot mapping.launch
 
