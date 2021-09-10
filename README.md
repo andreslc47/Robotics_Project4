@@ -23,9 +23,9 @@ To execute the Project:
                 cd ~/Robotics_Project4/
                 source devel/setup.bash
                 roslaunch my_robot world.launch
-	
+
 or
-	
+
                 ./robot
 
 	4.2. Second Terminal:
@@ -37,7 +37,7 @@ or
 or
 
                 ./mapping
-  
+
 	4.3. Third Terminal:
 
                 cd ~/Robotics_Project4/	
