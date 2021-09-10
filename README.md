@@ -8,39 +8,40 @@ To execute the Project:
 
 2. Enter to the folder:
 
-	cd ~/Robotics_Project4/
+        cd ~/Robotics_Project4/
   
 	
 3. Compile the Workspace by using the script provided:
 	
-	./compile_all
+        ./compile_all
  
 	
 4. Open 3 terminals.
 
 	4.1. First Terminal: 
 
-  		cd ~/Robotics_Project4/
-	      	source devel/setup.bash
-	       	roslaunch my_robot world.launch
+                cd ~/Robotics_Project4/
+                source devel/setup.bash
+                roslaunch my_robot world.launch
 	
 or
-		./robot
+	
+                ./robot
 
 	4.2. Second Terminal:
 
-	       	cd ~/Robotics_Project3/
-	      	source devel/setup.bash
-	      	roslaunch my_robot mapping.launch
+                cd ~/Robotics_Project3/
+                source devel/setup.bash
+                roslaunch my_robot mapping.launch
 
 or
 
-		./mapping
+                ./mapping
   
 	4.3. Third Terminal:
 
-        	cd ~/Robotics_Project4/	
-		source devel/setup.bash
+                cd ~/Robotics_Project4/	
+                source devel/setup.bash
       		roslaunch teleop_twist_keyboard teleop.launch
 
 		or
