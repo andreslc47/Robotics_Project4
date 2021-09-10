@@ -50,7 +50,7 @@ To execute the Project:
 	./open_database	
 
 7. To close everything:
-
+	
 	cd ~/Robotics_Project4/
 	./pkill_all
 
