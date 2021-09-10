@@ -66,7 +66,7 @@ To execute the Project:
 	
 6. When finish, open the downloaded database file and copy it to ~/.ros directory, then
 	
-	 cd ~/Robotics_Project4/
+        cd ~/Robotics_Project4/
         source devel/setup.bash
         rtabmap-databaseViewer ../.ros/rtabmap.db
 
