@@ -20,37 +20,37 @@ To execute the Project:
 
 	4.1. First Terminal: 
 
-                cd ~/Robotics_Project4/
-                source devel/setup.bash
-                roslaunch my_robot world.launch
+        cd ~/Robotics_Project4/
+        source devel/setup.bash
+        roslaunch my_robot world.launch
 
-or
+        or
 
-                ./robot
+        ./robot
 
 	4.2. Second Terminal:
 
-                cd ~/Robotics_Project3/
-                source devel/setup.bash
-                roslaunch my_robot mapping.launch
+        cd ~/Robotics_Project3/
+        source devel/setup.bash
+        roslaunch my_robot mapping.launch
 
-or
+        or
 
-                ./mapping
+        ./mapping
 
 	4.3. Third Terminal:
 
-                cd ~/Robotics_Project4/	
-                source devel/setup.bash
-      		roslaunch teleop_twist_keyboard teleop.launch
+        cd ~/Robotics_Project4/	
+        source devel/setup.bash
+        roslaunch teleop_twist_keyboard teleop.launch
 
-		or
+        or
 
-		./teleop
+	./teleop
 
-		or
+	or
 
-		rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+        rosrun teleop_twist_keyboard teleop_twist_keyboard.py
  
 	
 5. Move the robot by using the keys indicatd by teleop_twist_keyboard.
