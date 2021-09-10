@@ -5,10 +5,10 @@ To execute the Project:
 
 1. Clone the Repository Folder "Robotics_Project4" to your /home/<user> directory and download the already created database file (optionally)
 	
-	cd ~
-	git clone https://github.com/andreslc47/Robotics_Project4.git
-	cd ~/Robotics_Project4/
-	wget https://www.dropbox.com/s/w4ssoblkn4ylqw3/rtabmap.db?dl=0
+        cd ~
+        git clone https://github.com/andreslc47/Robotics_Project4.git
+        cd ~/Robotics_Project4/
+        wget https://www.dropbox.com/s/w4ssoblkn4ylqw3/rtabmap.db?dl=0
         cp rtabmap.db ~/.ros
 
 	
