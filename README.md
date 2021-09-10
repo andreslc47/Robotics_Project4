@@ -52,21 +52,21 @@ To execute the Project:
 
         rosrun teleop_twist_keyboard teleop_twist_keyboard.py
  
-	
+
 5. Move the robot by using the keys indicatd by teleop_twist_keyboard.
 
 	
 6. When finish, open the downloaded database file and copy it to ~/.ros directory, then
 	
-	rtabmap-databaseViewer ../.ros/rtabmap.db
+        rtabmap-databaseViewer ../.ros/rtabmap.db
 
-	or
+    or
 
-	./open_database	
+        ./open_database	
 
 	
 7. To close everything:
-	
+
         cd ~/Robotics_Project4/
         ./pkill_all
 
