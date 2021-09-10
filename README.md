@@ -54,4 +54,3 @@ To execute the Project:
 	cd ~/Robotics_Project4/
 	./pkill_all
 
-
