@@ -1,0 +1,3 @@
+#!/bin/bash
+#rtabmap-databaseViewer ~/.ros/rtabmap.db
+rtabmap-databaseViewer ../.ros/rtabmap.db
