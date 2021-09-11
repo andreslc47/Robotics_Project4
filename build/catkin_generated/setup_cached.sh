@@ -7,6 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/home/andres/turtlebot_ws/devel/lib:/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/home/andres/turtlebot_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
-export PWD='/home/andres/Robotics_Project4/build'
+export CMAKE_PREFIX_PATH="/home/robond/UDACITY_PROJECTS/Robotics_Project4/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/robond/UDACITY_PROJECTS/Robotics_Project4/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/robond/UDACITY_PROJECTS/Robotics_Project4/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/robond/Robotics_Project4/src:/home/andres/Robotics_Project4-main/src:/home/andres/Robotics_Project4/src:/home/robond/UDACITY_PROJECTS/Robotics_Project4/src:$ROS_PACKAGE_PATH"
